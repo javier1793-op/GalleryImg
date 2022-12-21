@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.accordion{
+    max-width: 1140px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.accordion span{
+    flex: 1;
+    min-height: 550px;
+    margin-inline: 10px;
+    transition: all .5s ease;
+}
+
+.accordion span:hover{
+    flex: 3;
+    cursor: pointer;
+}
+
+.accordion .img:nth-child(1){
+    background-image: url(./../img/beginning.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 56% center;
+  }
+  .accordion .img:nth-child(2){
+    background-image: url(./../img/leveling.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 56% center;
+  }
+  .accordion .img:nth-child(3){
+    background-image: url(./../img/desastre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 56% center;
+  }
+  .accordion .img:nth-child(4){
+    background-image: url(./../img/magic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 56% center;
+  }
+  .accordion .img:nth-child(5){
+    background-image: url(./../img/god.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 56% center;
+  }
