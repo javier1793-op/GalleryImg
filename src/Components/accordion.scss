@@ -24,6 +24,7 @@
 .accordion span:hover{
     flex: 3;
     cursor: pointer;
+//transform: scaleX(-1);
 }
 
 .accordion .img:nth-child(1){
@@ -37,6 +38,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 56% center;
+    
+
+    
   }
   .accordion .img:nth-child(3){
     background-image: url(./../img/desastre.jpg);
